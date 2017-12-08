@@ -5,6 +5,8 @@ Track Changes
 NetTools Bot is a network DNS troubleshooting bot designed for Cisco Spark. 
 To see a full working version please add nettools@sparkbot.io to a Spark space.
 
+New Comment Added
+
 ## Getting Started
 
 NetTools is meant to be a base to which to build. Although it does not use a database for storing 
