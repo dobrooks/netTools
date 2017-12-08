@@ -9,7 +9,7 @@ var log = require('./svrConfig/logger');
 var app = express();
 
 //  New comments to see if git is working
-//  Some more comments   2  hi
+//  Some more comments   2  hi from me
 
 app.use(bodyParser.json());
 // define express path for incoming webhooks
