@@ -18,6 +18,7 @@ app.post('/flint',webhook(flint));
 app.get('/monitor', function (req, res) {
   var roomCount = flint.bots.length;
   var don = roomCount;
+  var brooks = don;
   var json_response = {
     'name':process.env.SPARK_BOT_STRING,
     'roomCount': roomCount
