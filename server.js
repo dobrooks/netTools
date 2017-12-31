@@ -9,14 +9,20 @@ var log = require('./svrConfig/logger');
 var app = express();
 
 //  New comments to see if git is working
-//  Some more comments   2  hi from me  Some more comments
+<<<<<<< HEAD
+//  Some more comments   2  hi from me  Some more comments hghhj
+=======
+//  Some more comments   2  hi from me  SOME MORE
+>>>>>>> 1720c00aec5504266a53d148420119112cccc520
 
 app.use(bodyParser.json());
-// define express path for incoming webhooks
+// define express path for incoming webhookssdfdfasd jsdfjahsdfkjhskdj
 app.post('/flint',webhook(flint));
 //REST API for bot monitor
 app.get('/monitor', function (req, res) {
   var roomCount = flint.bots.length;
+  var don = roomCount;
+  var brooks = don;
   var json_response = {
     'name':process.env.SPARK_BOT_STRING,
     'roomCount': roomCount
