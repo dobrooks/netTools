@@ -10,7 +10,7 @@ var app = express();
 
 //  New comments to see if git is working
 <<<<<<< HEAD
-//  Some more comments   2  hi from me  Some more comments hghhj
+//  Some more comments   2  hi from me  Some more comments hghhj  hjsdgfhjgsdhjaf
 =======
 //  Some more comments   2  hi from me  SOME MORE
 >>>>>>> 1720c00aec5504266a53d148420119112cccc520
